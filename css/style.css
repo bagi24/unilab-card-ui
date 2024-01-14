@@ -36,6 +36,7 @@ body {
   flex-direction: column;
   width: 500px;
   gap: 41px;
+  margin-top: 98.56px;
 }
 
 .card-description {
