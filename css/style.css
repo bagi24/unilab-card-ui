@@ -102,7 +102,9 @@ body {
   color: rgba(18, 17, 17, 1);
   border-bottom: 4px solid rgba(18, 17, 17, 1);
 }
-
+.btnContainer {
+  margin: 89.01px 147.63px 34.2px 147.93px;
+}
 .btn {
   width: 255.4px;
   height: 65.79px;
@@ -117,5 +119,4 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 89.01px 147.63px 34.2px 147.93px;
 }
