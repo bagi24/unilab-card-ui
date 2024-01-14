@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border: 2.88px solid #75464ae0;
+  width: 550.95px;
+  height: 900px;
+  border-radius: 27.72px;
+  background-color: rgba(247, 245, 245, 1);
+  margin-top: 20px;
+}
+
+.keyboard {
+  width: 500px;
+  height: 484.44px;
+  margin: 36px 25.95px 0 25px;
+  border-radius: 79px;
+}
+
+.card-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+  gap: 41px;
+}
+
+.card-description {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.card-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.title {
+  font-family: "Cinzel";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: uppercase;
+  color: #75464a;
+}
+
+.keyStrong {
+  color: #121111;
+}
+
+.price {
+  font-family: "Cinzel";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ff0000;
+}
+
+.link {
+  font-family: "Cinzel";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: rgba(255, 0, 0, 1);
+  border-bottom: 4px solid rgba(255, 0, 0, 1);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.linkStrong {
+  font-family: "Cinzel";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: rgba(18, 17, 17, 1);
+  border-bottom: 4px solid rgba(18, 17, 17, 1);
+}
+
+.btn {
+  width: 255.4px;
+  height: 65.79px;
+  border-radius: 28.83px;
+  background-color: rgba(63, 50, 50, 1);
+  color: rgba(255, 255, 255, 1);
+  font-family: "Cinzel";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 89.01px 147.63px 34.2px 147.93px;
+}
